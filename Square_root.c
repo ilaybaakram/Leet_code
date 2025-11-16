@@ -8,7 +8,7 @@ int mySqrt(int x) {
         int mid = left + (right - left) / 2;
 
         
-        long long square = (long long)mid * mid;
+        long long int square = (long long)mid * mid;
 
         if (square == x) {
             return mid;
